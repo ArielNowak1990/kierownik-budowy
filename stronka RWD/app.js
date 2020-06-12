@@ -1,0 +1,1 @@
+alert("Strona w budowie ! za utrudnienia przepraszamy ! ")

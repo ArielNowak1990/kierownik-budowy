@@ -1,0 +1,176 @@
+        /*<![CDATA[*/
+        /*WPROWADZENIE CSS DO CAŁEGO DOKUMENTU*/
+
+        body {
+            margin: 0px;
+            background-image: url('images/tlo.jpg');           
+        }
+
+        #calosc {
+            display: flex;
+            flex-wrap: wrap;
+            width: 480px;
+            height: auto;
+            position: relative;
+            margin: 20px auto;
+            opacity: 1;
+        }
+
+        #banner {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+
+        #menu_glowne {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 15px;
+        }
+
+        #middle {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #stopka {
+            width: 100%;
+            height: auto;
+
+        }
+
+        #menu_boczne {
+            width: 0%;
+            height: auto;
+
+        }
+
+        #tresc_glowna {
+            width: 100%;
+            height: auto;
+
+        }
+        .chmura {
+            display: block;
+            width: auto;
+            height: auto;
+            border: 1px solid red;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-bottom: 25px;
+            margin-top: 25px;
+            opacity: 0.85;
+        }
+        .chmura p{
+            margin-left: 15px;
+            margin-right: 15px;
+            text-align: justify;
+        }
+
+        #reklamy {
+            width: 100%;
+            height: auto;
+            display: block;
+            border: 1px solid red;
+            background-color: seashell;
+            border-radius: 25px;
+            opacity: 0.85;
+            margin-top: 25px;
+            padding: 10px;
+            text-align: justify;
+        }
+
+        .logo {
+            border: 4px solid red;
+            
+        }
+
+        .kontakt {
+            border: 4px solid red;
+            padding: 5px;
+            background-color: seashell;
+            border-radius: 25px;
+            width: 100%;
+            text-align: center;
+            
+        }
+        .kontakt a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .shop {
+            border: 4px solid red;
+            height: auto;
+            width: 100%;
+            background-color: seashell;
+            border-radius: 25px;
+            text-align: center;
+            padding-top: 10px;
+            box-sizing: border-box;
+        }
+
+        .menu_1_poziom li {
+            display: none;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .menu_1_poziom:hover li {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            position: relative;
+            background-color: seashell;
+            z-index: 2;
+            border-radius: 25px;
+            border: 4px solid red;
+        }
+
+        .menu_1_poziom {
+            text-transform: uppercase;
+            background-color: seashell;
+            padding: 20px;
+            border: 2px solid red;
+            border-radius: 25px;
+        }
+
+        #tresc_glowna a,
+        #menu_glowne a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #tresc_glowna a:hover,
+        #menu_glowne a:hover {
+            background-color: black;
+            color: aliceblue;
+            display: block;
+        }
+        #tresc_glowna h1 {
+            text-align: center;
+        }
+        .chmura_koniec {
+            display: block;
+            width: 100%;
+            height: auto;
+            border: 1px solid red;
+            background-color: seashell;
+            border-radius: 25px;
+            margin-bottom: 25px;
+            margin-top: 35px;
+            opacity: 0.85;
+            padding: 30px;
+        }
+        #tresc_glowna {
+            line-height: 1.5em;
+        }
